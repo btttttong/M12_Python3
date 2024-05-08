@@ -1,2 +1,4 @@
 bot_env/
 bot_env/*
+bot_env/Lib/
+bot_env/Lib/*
