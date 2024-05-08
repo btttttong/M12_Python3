@@ -1,4 +1,8 @@
 bot_env/
 bot_env/*
 bot_env/Lib/
-bot_env/Lib/*
+bot_env/Lib/site-packages/
+bot_env/Lib/site-packages/*
+bot_env/Lib/site-packages/telepot/
+bot_env/Lib/site-packages/telepot/*
+bot_env/Lib/site-packages/telepot/__init__.py
