@@ -16,7 +16,7 @@ def calculate_bmi(weight: float, height: float) -> float:
 #     return render_template("bmi.html")
 
 
-@app.route("/", methods=["POST"])
+@app.route("/", methods=["GET", "POST"])
 def bmi():
     height = float(request.form.get("height"))
     weight = float(request.form.get("weight"))

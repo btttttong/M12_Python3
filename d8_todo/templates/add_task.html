@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}Add Task{% endblock %}
+
+{% block content %}
+<div class="bg-white p-4 rounded shadow-sm w-100">
+    <h1 class="h4 font-weight-bold mb-3">Add Task</h1>
+    <form method="post">
+        <div class="form-group">
+            <label for="task">Add Your Task:</label>
+            <input type="text" name="task" id="task" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Add Task</button>
+    </form>
+</div>
+{% endblock %}
